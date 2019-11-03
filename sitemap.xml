@@ -127,6 +127,11 @@
   </url>
   
   <url>
+    <loc>https://soyongkim.github.io/reboot/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://soyongkim.github.io/tags/atlassian-developer-ecosystem/</loc>
   </url>
   

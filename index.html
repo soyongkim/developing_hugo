@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Home</title>
-  <meta property="og:title" content="Home" />
+  <title>SD_Portfoilo</title>
+  <meta property="og:title" content="SD_Portfoilo" />
   <meta property="og:image" content="https://soyongkim.github.io/img/TechChat.png" />
   <meta name="description" content="Software Engineer with experience leveraging Android Client and Server based on Node.js">
   <meta property="og:description" content="Software Engineer with experience leveraging Android Client and Server based on Node.js" />
@@ -19,6 +19,8 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/font-kopub/1.0/kopubdotum.css">
+  
+  <link rel="shortcut icon" type="image⁄x-icon" href="img/favicon.ico">
   
   <link href="https://soyongkim.github.io/css/resume.css" rel="stylesheet">
   <link href="https://soyongkim.github.io/css/tweaks.css" rel="stylesheet">
@@ -83,7 +85,7 @@
                 <span class="text-primary">Kim</span>
               </h1>
               <div class="subheading mb-5">Daegu, KR ·
-                <a href="mailto:thdyd-remove-324@gmail.com">thdyd<span style="display:none">-remove-</span>324@gmail.com</a>
+                <a href="mailto:thdyd324@gmail.com">thdyd<span style="display:none">-remove-</span>324@gmail.com</a>
               </div>
 
             </div>
@@ -340,7 +342,67 @@
          <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
   <div class="my-auto" id="projects-content">
     <h2 class="mb-5"><a href="https://soyongkim.github.io/projects/creations/">Creations</a></h2>
-    <p><p>A collection of projects authored by Eddie, and likely shared out with the community as an open source project.</p>
+    <p>
+
+<h1 id="static-website-generator">STATIC WEBSITE GENERATOR</h1>
+
+<h2 id="정적-vs-동적">정적 vs 동적</h2>
+
+<p>정적인 페이지란 말그대로 이미 완성된 HTML이고, 클라이언트의 요청을 받는 서버의 역할은 단순히 이렇게 완성되어 있는 HTML이고, 클라이언트의 요청을 받는 서버의 역할은 단순히 이렇게 완성된 HTML을 보내주는 역할을 할 뿐이다.</p>
+
+<p>동적이란 HTML 페이지를 클라이언트 요청에 따라서 실시간으로 생성해서 보내준다는 의미를 가지고 있다. 그래서 이러한 웹 어플리케이션을 배울 때 가장 먼저 나오는 것이 항상 이름을 받고서 이름을 출력해주는 예제이다. 즉 서버는 완성된 HTML을 가지고 있지 않다. 거의 완성되었거나, 심지어는 아무것도 없어도, 요청에 따라 실시간으로 완성된 문서를 다시 보내준다. 여기서 서버란 웹서버 애플리케이션과 웹 애플리케이션을 함께 말한다.</p>
+
+<p>둘을 잘 읽어보면, 동적이 뭔가 더 좋아보인다. 그렇다고해서 정적이 나쁘다는 것은 아니다. 동적은 오히려 실시간으로 사이트를 생성해야 되기 때문에 굉장히 큰 비용이 든다. 이런 이유 때문에 어떤 프레임워크를 사용할 것인가, 어떤 언어를 사용할 것인가 선택하는 것은 굉장히 중요한 문제다.</p>
+
+<p>단순히 서버 수준의 스케일링까지 고려하지 않더라도 동적으로 웹페이지를 생성하는 일은 굉장히 느리다. 그 차이가 비록 와닿지 않을 정도라고 해도, 분명히 느리며, 이러한 차이를 극복하기 위해 실제 웹서비스들에서는 캐시를 사용해 마치 자신이 정적 웹 페이지인 것 마냥 작동한다. 캐시가 가능한 이유는 웹 애플리케이션의 많은 부분이 사실은 정적이기 때문이다. 즉 요청마다 다르게 보여주는 부분은 실제로는 그렇게 많지 않다는 말이다.</p>
+
+<p>정적인 자원은 다른 처리 비용없이, 그저 보내주면 되기 때문에, 동적보다 훨씬 빠르다. 그러나 가장 큰 문제는 웹 프레임워크를 다 버리고 HTML로 하드 코딩을 해야된다는 점이다.</p>
+
+<h2 id="swg">SWG</h2>
+
+<p>여기서 등장하는 것이 바로 SWG다. 웹사이트를 동적으로 생성하되, 정적으로 제공한다는 의미에서 정적 웹사이트 생성기가 되는 것이다. 이는 프로그래밍에 있어서 컴파일의 사전적인 의미에 좀 더 가까운 작업이다.</p>
+
+<p>블로그와 같은 경우, 내가 가진 문서를 얼마나 잘 보여줄 것인가가 포인트인데, 여기서 문서는 정적이다. 여기서 운영자가 새로운 글을 포스팅할때에만, 동적으로 페이징, 카테고리 ,태그 , 날짜 같은 것을 처리하면 되기 때문에 포스트를 올린 시점에 블로그의 모든 페이지가 정적으로 완결될 수 있다.</p>
+
+<p>다시말해 SWG는 글을 쓰는 시점에서 HTML로 번역해서 정적인 웹페이지로 글이 올라가게 만들어주는 것이다.</p>
+
+<h2 id="현재-인기-있는-swg">현재 인기 있는 SWG</h2>
+
+<p>가장 핫 한 SWG 3개를 소개한다.</p>
+
+<ul>
+<li>Jekyll
+
+<ul>
+<li>루비 기반</li>
+<li>현재 가장 인기가 많음</li>
+<li>한글 레퍼런스도 제일 많음</li>
+<li>느리다는 제보가 많음(몇 십개의 포스팅 뿐인데도 빌드하는데 5분 씩 걸림)</li>
+<li>윈도우 공식 지원 안됨</li>
+</ul></li>
+<li>Hexo
+
+<ul>
+<li>자바스크립트(Node.js) 기반</li>
+<li>한글 레퍼런스 꽤 많음</li>
+<li>메인 개발자가 손을 놓은 듯</li>
+<li>개발자가 중국인이라 구글링하면 중국어 글이 많음</li>
+</ul></li>
+<li>Hugo
+
+<ul>
+<li>Go 기반</li>
+<li>빌드 빠름</li>
+<li>문서화가 잘되어 있음</li>
+<li>한글 레퍼런스가 거의 없음</li>
+</ul></li>
+</ul>
+
+<h2 id="참조">참조</h2>
+
+<p>[1]  <a href="https://blog.nacyot.com/articles/2014-01-15-static-site-generator/">https://blog.nacyot.com/articles/2014-01-15-static-site-generator/</a></p>
+
+<p>[2]  <a href="https://github.com/Integerous/Integerous.github.io">https://github.com/Integerous/Integerous.github.io</a></p>
 </p>
     
     
