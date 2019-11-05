@@ -4,89 +4,59 @@
   
   <url>
     <loc>https://soyongkim.github.io/projects/creations/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/projects/contributions/</loc>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/projects/contributions/deploy-triggers/</loc>
-    <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://soyongkim.github.io/publications/alldaydevops/</loc>
-    <lastmod>2016-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/projects/contributions/shields-docker/</loc>
-    <priority>0.8</priority>
+    <loc>https://soyongkim.github.io/tags/android/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/projects/contributions/schema-org/</loc>
-    <priority>0.8</priority>
+    <loc>https://soyongkim.github.io/tags/attendance-system/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/tags/atlassian-ecosystem/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+    <loc>https://soyongkim.github.io/tags/javascript/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/tags/bash/shell/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+    <loc>https://soyongkim.github.io/tags/kotlin/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/tags/bosh/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+    <loc>https://soyongkim.github.io/tags/node.js/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/projects/creations/bosh-agents/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/devops/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/java/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/monit/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/python/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+    <loc>https://soyongkim.github.io/publications/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://soyongkim.github.io/tags/rest-apis/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soyongkim.github.io/tags/security/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://soyongkim.github.io/tags/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/xml/xslt/</loc>
-    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -96,95 +66,19 @@
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/tags/agile/</loc>
-    <lastmod>2016-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/ci/cd-pipelines/</loc>
-    <lastmod>2016-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/continuous-delivery/</loc>
-    <lastmod>2016-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/continuous-integration/</loc>
-    <lastmod>2016-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/culture/</loc>
-    <lastmod>2016-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/publications/</loc>
-    <lastmod>2016-11-08T00:00:00+00:00</lastmod>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/reboot/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/atlassian-developer-ecosystem/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/projects/creations/marketplace/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/bamboo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/bitbucket/</loc>
-  </url>
-  
-  <url>
     <loc>https://soyongkim.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/tags/confluence/</loc>
+    <loc>https://soyongkim.github.io/tags/iot/</loc>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/tags/docker/</loc>
+    <loc>https://soyongkim.github.io/tags/java/</loc>
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/projects/creations/docker-marketplace/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/javascript/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/jira/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/jquery/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/json/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/maven/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soyongkim.github.io/tags/node.js/</loc>
+    <loc>https://soyongkim.github.io/tags/kotiln/</loc>
   </url>
   
   <url>
@@ -198,7 +92,11 @@
   </url>
   
   <url>
-    <loc>https://soyongkim.github.io/tags/spring/</loc>
+    <loc>https://soyongkim.github.io/projects/creations/vlc_server/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soyongkim.github.io/projects/creations/vlc_client/</loc>
   </url>
   
 </urlset>

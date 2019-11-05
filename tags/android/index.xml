@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on SDPortfolio</title>
+    <link>https://soyongkim.github.io/tags/android/</link>
+    <description>Recent content in Android on SDPortfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://soyongkim.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>가시광 통신 기반 출결 관리 시스템 설계 및 구현</title>
+      <link>https://soyongkim.github.io/publications/alldaydevops/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://soyongkim.github.io/publications/alldaydevops/</guid>
+      <description>기존의 전자파를 사용하는 전자 출결 관리 시스템은 설치를 위해 많은 비용이 들거나 편의성 측면에서 불편한 점이 많고 부정 출석에 취약하다는 문제점이 있다. 이 논문에서는 가시광 통신을 기반으로 한 출결 관리 시스템을 통해 상기의 문제점들을 해결하고자 한다.
+ Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow. Favor deep end-to-end accomplishments over broad but incremental steps forward. Focus on taking the right teams far before encouraging broad adoption.</description>
+    </item>
+    
+    <item>
+      <title>가시광 통신 서비스 클라이언트 앱 개발</title>
+      <link>https://soyongkim.github.io/projects/creations/vlc_client/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soyongkim.github.io/projects/creations/vlc_client/</guid>
+      <description>가시광 통신 서비스 클라이언트 앱 가시광 통신 서비스 클라이언트 앱은 가시광 통신 서비스를 제공받기 위해, 클라이언트 측에서 가시광 수신 기능을 탑재한 안드로이드 앱입니다. 이 앱은 크게 두 가지 주요 기능이 있습니다.
+주요 기능 가시광 데이터 수신 시리얼 통신 기능 가시광 통신으로 데이터를 송수신하기 위한 장비가 시리얼 통신을 사용하였으며 이를 위해 클라이언트 앱에서도 시리얼 통신을 하기 위한 기능을 탑재하였습니다. 아래의 그림은 스마트폰에 시리얼 통신 장비가 usb 포트를 통해 연결되었을 때 이를 감지하고, 이 장비를 하나의 객체로 만드는 과정입니다.</description>
+    </item>
+    
+  </channel>
+</rss>

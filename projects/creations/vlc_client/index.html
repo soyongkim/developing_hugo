@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>가시광 통신 서비스 클라이언트 앱 개발</title>
+  <meta property="og:title" content="가시광 통신 서비스 클라이언트 앱 개발" />
+  <meta property="og:image" content="https://soyongkim.github.io/img/TechChat.png" />
+  <meta name="description" content="Software Engineer with experience leveraging Android Client and Server based on Node.js">
+  <meta property="og:description" content="Software Engineer with experience leveraging Android Client and Server based on Node.js" />
+  <meta name="author" content="So-Yong Kim">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+  
+  <link href="https://soyongkim.github.io/css/resume.css" rel="stylesheet">
+  <link href="https://soyongkim.github.io/css/tweaks.css" rel="stylesheet">
+  <meta name="generator" content="Hugo 0.59.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">So-Yong Kim</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/TechChat.png" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#publications">Publications</a>
+          </li>
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://soyongkim.github.io/">SDPortfoilo</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://soyongkim.github.io/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://soyongkim.github.io/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://soyongkim.github.io/projects/creations/vlc_client/">가시광 통신 서비스 클라이언트 앱 개발</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">가시광 통신 서비스 클라이언트 앱 개발</span></h2>
+    
+
+<h3 id="가시광-통신-서비스-클라이언트-앱">가시광 통신 서비스 클라이언트 앱</h3>
+
+<p>가시광 통신 서비스 클라이언트 앱은 가시광 통신 서비스를 제공받기 위해, 클라이언트 측에서 가시광 수신 기능을 탑재한 안드로이드 앱입니다. 이 앱은 크게 두 가지 주요 기능이 있습니다.</p>
+
+<h3 id="주요-기능">주요 기능</h3>
+
+<h4 id="가시광-데이터-수신">가시광 데이터 수신</h4>
+
+<h5 id="시리얼-통신-기능">시리얼 통신 기능</h5>
+
+<p>가시광 통신으로 데이터를 송수신하기 위한 장비가 시리얼 통신을 사용하였으며 이를 위해 클라이언트 앱에서도 시리얼 통신을 하기 위한 기능을 탑재하였습니다. 아래의 그림은 스마트폰에 시리얼 통신 장비가 usb 포트를 통해 연결되었을 때 이를 감지하고, 이 장비를 하나의 객체로 만드는 과정입니다.</p>
+
+<p><img src="/.vlc_client.assets/findReceiver.png" alt="findReceiver" /></p>
+
+<p>위 과정에서 받은 가시광 통신 장비 객체를 이용하여 데이터를 수신하고, 서버와 미리 약속한 바이트 단위대로 데이터를 파싱하고 이를 활용합니다.</p>
+
+<p><img src="/.vlc_client.assets/ReceiveData.png" alt="ReceiveData" /></p>
+
+<h4 id="가시광-통신-서비스를-위한-주요-기능">가시광 통신 서비스를 위한 주요 기능</h4>
+
+<h5 id="http-메시지-송수신-기능">HTTP 메시지 송수신 기능</h5>
+
+<p>가시광 통신 기반 서비스 타입을 크게 두 가지로 분류하였습니다. 첫 번째는 가시광 데이터를 수신하면 그 데이터를 단순히 사용자에게 보여주는 서비스이고, 두 번째는 이 데이터를 다시 서버에게 전송하여, 응답을 받는 형식의 서비스입니다. 후자의 경우, 클라이언트 앱에서 서버에게 데이터를 전송하는 기능이 필요하며 이를 위해 HTTP 메시지를 전달하고 받기 위한 기능을 탑재하였습니다.</p>
+
+<p><img src="/.vlc_client.assets/reqeustServer.png" alt="reqeustServer" /></p>
+
+<p>또한 HTTP 메시지 송수신 기능은, 여러 액티비티에서 사용할 수 있으므로, 서비스로 구현함으로써 재사용성을 높였습니다.</p>
+
+<h5 id="타이머-기능">타이머 기능</h5>
+
+<p>이 기능은 가시광 통신을 이용한 출결 관리 서비스에서 남은 출결 시간을 표현하기 위해 탑재하였으며, 브로드캐스트 리시버를 이용하여 앱 자체가 꺼져있어도 카운팅이 계속될 수 있도록 구현하였습니다.</p>
+
+<p><img src="/.vlc_client.assets/timer.png" alt="timer" /></p>
+
+<h3 id="가시광-통신-서비스-구현">가시광 통신 서비스 구현</h3>
+
+<h4 id="가시광-통신-기반-출결-관리-서비스">가시광 통신 기반 출결 관리 서비스</h4>
+
+<p>가시광 통신 기반 출결 관리 서비스는 정해진 장소에서 가시광 통신 데이터를 수신하여야만 출석을 인정하는 서비스로, 관리자가 출결 서비스 활성화를 서버에게 요청하면, 출결 서비스 활성화와 함께 타이머가 작동하여 남은 활성화 시간을 나타냅니다. 출결 서비스 요청자들은 이 시간동안 자신의 계정으로 로그인을 하여 가시광 데이터를 받아서 출결 서비스를 받을 수 있습니다.</p>
+
+<p><img src="/.vlc_client.assets/process_attendance.png" alt="process_attendance" /></p>
+
+<h4 id="가시광-통신-기반-박물관-전시-서비스">가시광 통신 기반 박물관 전시 서비스</h4>
+
+<p>박물관 전시 서비스는 작품하나를 비추는 조명을 통해 작품의 설명을 나타내는 데이터를 전송하는 서비스입니다.</p>
+
+<p><img src="/.vlc_client.assets/process_museum.png" alt="process_museum" /></p>
+
+<h4 id="시연-영상">시연 영상</h4>
+
+<video height="auto" width="700px" autoplay="autoplay">
+  <source src="/video/VLC-Demo-Video-Final.mp4" type="video/mp4">
+</video>
+
+    <p>Project link: <a href="https://github.com/soyongkim/VLC-AttendanceSystem/tree/master/VLC_Client">https://github.com/soyongkim/VLC-AttendanceSystem/tree/master/VLC_Client</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/java">Java</a></li>
+    
+      <li><a class="tag" href="/tags/kotiln">Kotiln</a></li>
+    
+      <li><a class="tag" href="/tags/android">Android</a></li>
+    
+      <li><a class="tag" href="/tags/iot">IoT</a></li>
+    
+      <li><a class="tag" href="/tags/rest-apis">REST APIs</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=XX-123446-01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'XX-123446-01');
+  </script>
+  
+
+  
+</body>
+</html>

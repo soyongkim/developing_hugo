@@ -1,5 +1,24 @@
+@font-face {
+  font-family: 'Saira Extra Condensed';
+  font-style: normal;
+  src: url('font/SairaExtraCondensed-Black.ttf');
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-style: normal;
+  src: url('font/KoPub_Dotum_Bold.ttf');
+} 
+
+@font-face {
+  font-family: 'KoPub Light';
+  font-style: normal;
+  src: url('font/KoPubWorld_Dotum_Light.ttf');
+} 
+
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Open sans','KoPub Light', serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -8,6 +27,7 @@ body {
   body {
     padding-top: 0;
     padding-left: 17rem;
+
   }
 }
 
@@ -17,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Saira Extra Condensed', 'KoPub Dotum', serif;
   font-weight: 700;
   color: #343a40;
 }
@@ -153,11 +173,3 @@ a:hover, a:focus, a:active {
 img {
   max-width:80%;
 }
-
-p:lang(ko) {
-  font-family: 'KoPub Dotum', serif;
-  font-weight: 700;
-  color: #868e96;
-}
-
-

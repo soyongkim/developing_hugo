@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on SDPortfolio</title>
+    <link>https://soyongkim.github.io/tags/security/</link>
+    <description>Recent content in Security on SDPortfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://soyongkim.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>가시광 통신 기반 출결 관리 시스템 설계 및 구현</title>
+      <link>https://soyongkim.github.io/publications/alldaydevops/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://soyongkim.github.io/publications/alldaydevops/</guid>
+      <description>기존의 전자파를 사용하는 전자 출결 관리 시스템은 설치를 위해 많은 비용이 들거나 편의성 측면에서 불편한 점이 많고 부정 출석에 취약하다는 문제점이 있다. 이 논문에서는 가시광 통신을 기반으로 한 출결 관리 시스템을 통해 상기의 문제점들을 해결하고자 한다.
+ Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow. Favor deep end-to-end accomplishments over broad but incremental steps forward. Focus on taking the right teams far before encouraging broad adoption.</description>
+    </item>
+    
+  </channel>
+</rss>
