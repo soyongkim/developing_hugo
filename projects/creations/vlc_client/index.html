@@ -122,11 +122,11 @@
 
 <p>가시광 통신으로 데이터를 송수신하기 위한 장비가 시리얼 통신을 사용하였으며 이를 위해 클라이언트 앱에서도 시리얼 통신을 하기 위한 기능을 탑재하였습니다. 아래의 그림은 스마트폰에 시리얼 통신 장비가 usb 포트를 통해 연결되었을 때 이를 감지하고, 이 장비를 하나의 객체로 만드는 과정입니다.</p>
 
-<p><img src="/img/.vlc_client.assets/findReceiver.png" alt="findReceiver" /></p>
+<p><img src="/.vlc_client.assets/findReceiver.png" alt="findReceiver" /></p>
 
 <p>위 과정에서 받은 가시광 통신 장비 객체를 이용하여 데이터를 수신하고, 서버와 미리 약속한 바이트 단위대로 데이터를 파싱하고 이를 활용합니다.</p>
 
-<p><img src="/img/.vlc_client.assets/ReceiveData.png" alt="ReceiveData" /></p>
+<p><img src="/.vlc_client.assets/ReceiveData.png" alt="ReceiveData" /></p>
 
 <h4 id="가시광-통신-서비스를-위한-주요-기능">가시광 통신 서비스를 위한 주요 기능</h4>
 
@@ -134,7 +134,7 @@
 
 <p>가시광 통신 기반 서비스 타입을 크게 두 가지로 분류하였습니다. 첫 번째는 가시광 데이터를 수신하면 그 데이터를 단순히 사용자에게 보여주는 서비스이고, 두 번째는 이 데이터를 다시 서버에게 전송하여, 응답을 받는 형식의 서비스입니다. 후자의 경우, 클라이언트 앱에서 서버에게 데이터를 전송하는 기능이 필요하며 이를 위해 HTTP 메시지를 전달하고 받기 위한 기능을 탑재하였습니다.</p>
 
-<p><img src="/img/.vlc_client.assets/reqeustServer.png" alt="reqeustServer" /></p>
+<p><img src="/.vlc_client.assets/reqeustServer.png" alt="reqeustServer" /></p>
 
 <p>또한 HTTP 메시지 송수신 기능은, 여러 액티비티에서 사용할 수 있으므로, 서비스로 구현함으로써 재사용성을 높였습니다.</p>
 
@@ -142,7 +142,7 @@
 
 <p>이 기능은 가시광 통신을 이용한 출결 관리 서비스에서 남은 출결 시간을 표현하기 위해 탑재하였으며, 브로드캐스트 리시버를 이용하여 앱 자체가 꺼져있어도 카운팅이 계속될 수 있도록 구현하였습니다.</p>
 
-<p><img src="/img/.vlc_client.assets/timer.png" alt="timer" /></p>
+<p><img src="/.vlc_client.assets/timer.png" alt="timer" /></p>
 
 <h3 id="가시광-통신-서비스-구현">가시광 통신 서비스 구현</h3>
 
@@ -150,13 +150,13 @@
 
 <p>가시광 통신 기반 출결 관리 서비스는 정해진 장소에서 가시광 통신 데이터를 수신하여야만 출석을 인정하는 서비스로, 관리자가 출결 서비스 활성화를 서버에게 요청하면, 출결 서비스 활성화와 함께 타이머가 작동하여 남은 활성화 시간을 나타냅니다. 출결 서비스 요청자들은 이 시간동안 자신의 계정으로 로그인을 하여 가시광 데이터를 받아서 출결 서비스를 받을 수 있습니다.</p>
 
-<p><img src="/img/.vlc_client.assets/process_attendance.png" alt="process_attendance" /></p>
+<p><img src="/.vlc_client.assets/process_attendance.png" alt="process_attendance" /></p>
 
 <h4 id="가시광-통신-기반-박물관-전시-서비스">가시광 통신 기반 박물관 전시 서비스</h4>
 
 <p>박물관 전시 서비스는 작품하나를 비추는 조명을 통해 작품의 설명을 나타내는 데이터를 전송하는 서비스입니다.</p>
 
-<p><img src="/img/.vlc_client.assets/process_museum.png" alt="process_museum" /></p>
+<p><img src="/.vlc_client.assets/process_museum.png" alt="process_museum" /></p>
 
 <h4 id="시연-영상">시연 영상</h4>
 
