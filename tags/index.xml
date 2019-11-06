@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Android</title>
-      <link>https://soyongkim.github.io/tags/android/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://soyongkim.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Attendance system</title>
       <link>https://soyongkim.github.io/tags/attendance-system/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
@@ -30,38 +21,11 @@
     </item>
     
     <item>
-      <title>JavaScript</title>
-      <link>https://soyongkim.github.io/tags/javascript/</link>
+      <title>IoT</title>
+      <link>https://soyongkim.github.io/tags/iot/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://soyongkim.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kotlin</title>
-      <link>https://soyongkim.github.io/tags/kotlin/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://soyongkim.github.io/tags/kotlin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Node.js</title>
-      <link>https://soyongkim.github.io/tags/node.js/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://soyongkim.github.io/tags/node.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>REST APIs</title>
-      <link>https://soyongkim.github.io/tags/rest-apis/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://soyongkim.github.io/tags/rest-apis/</guid>
+      <guid>https://soyongkim.github.io/tags/iot/</guid>
       <description></description>
     </item>
     
@@ -75,11 +39,20 @@
     </item>
     
     <item>
-      <title>IoT</title>
-      <link>https://soyongkim.github.io/tags/iot/</link>
+      <title>VLC</title>
+      <link>https://soyongkim.github.io/tags/vlc/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://soyongkim.github.io/tags/vlc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://soyongkim.github.io/tags/android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://soyongkim.github.io/tags/iot/</guid>
+      <guid>https://soyongkim.github.io/tags/android/</guid>
       <description></description>
     </item>
     
@@ -93,11 +66,38 @@
     </item>
     
     <item>
+      <title>JavaScript</title>
+      <link>https://soyongkim.github.io/tags/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soyongkim.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kotiln</title>
       <link>https://soyongkim.github.io/tags/kotiln/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://soyongkim.github.io/tags/kotiln/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>https://soyongkim.github.io/tags/node.js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soyongkim.github.io/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST APIs</title>
+      <link>https://soyongkim.github.io/tags/rest-apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soyongkim.github.io/tags/rest-apis/</guid>
       <description></description>
     </item>
     

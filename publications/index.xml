@@ -13,12 +13,12 @@
     
     <item>
       <title>가시광 통신 기반 출결 관리 시스템 설계 및 구현</title>
-      <link>https://soyongkim.github.io/publications/alldaydevops/</link>
+      <link>https://soyongkim.github.io/publications/paper_attendance/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://soyongkim.github.io/publications/alldaydevops/</guid>
-      <description>기존의 전자파를 사용하는 전자 출결 관리 시스템은 설치를 위해 많은 비용이 들거나 편의성 측면에서 불편한 점이 많고 부정 출석에 취약하다는 문제점이 있다. 이 논문에서는 가시광 통신을 기반으로 한 출결 관리 시스템을 통해 상기의 문제점들을 해결하고자 한다.
- Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow. Favor deep end-to-end accomplishments over broad but incremental steps forward. Focus on taking the right teams far before encouraging broad adoption.</description>
+      <guid>https://soyongkim.github.io/publications/paper_attendance/</guid>
+      <description>가시광 통신 기반 출결 관리 시스템 소개 전자 출결 관리 시스템은 학생의 출결 정보를 신속하고 정확하게 전송하여 처리하는 방법을 요구하는데, 이를 위해 RFID, NFC, 블루투스와 같은 전자파 기반의 통신 기술이 많이 사용됩니다. 그러나 이렇란 통신 기술 기반의 출결 관리 시스템은 설치 비용이 많이 들고, 불편하며, 부정 출석에 취약하다는 단점이 있습니다. 이러한 단점을 해결할 수 있는 것이 바로, 가시광 통신 기반 출결 관리 시스템입니다.
+이 시스템은 기존에 설치된 LED 조명 인프라를 그대로 활용하기 때문에 설치비용이 적고 위치가 고정된 LED 조명으로부터 가시광을 수신하여 출결 서비스를 받기 때문에 추가 작업 없이 사용자의 정확한 위치를 손쉽게 알 수 있습니다.</description>
     </item>
     
   </channel>
